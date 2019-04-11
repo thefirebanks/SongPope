@@ -185,7 +185,7 @@ def main():
 
     #Set the basedir here, the root directory from which the search
     #for files stored in a (hierarchical data structure) will originate
-    basedir = "/Users/dafirebanks/Downloads/MillionSongSubset/data/" # "." As the default means the current directory
+    basedir = "./MillionSongSubset/data/" # "." As the default means the current directory
     ext = "*.h5" #Set the extension here. H5 is the extension for HDF5 files.
     #################################################
 
