@@ -1,3 +1,9 @@
 .ipynb_checkpoints/
 /MillionSongSubset
 .DS_Store
+/test
+features_to_check.xlsx
+SongCSV.csv
+msdHDF5toCSV.py
+hdf5_getters.py
+__pycache__
