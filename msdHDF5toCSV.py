@@ -42,6 +42,7 @@ import os
 import glob
 import hdf5_getters
 import re
+import numpy
 
 class Song:
     songCount = 0
@@ -231,6 +232,7 @@ def main():
 
     #Set the basedir here, the root directory from which the search
     #for files stored in a (hierarchical data structure) will originate
+    #basedir = "./I/"
     basedir = "./MillionSongSubset/data/" # "." As the default means the current directory
     #basedir = "/Users/dafirebanks/Downloads/MillionSongSubset/data/" # "." As the default means the current directory
     ext = "*.h5" #Set the extension here. H5 is the extension for HDF5 files.
